@@ -1,11 +1,18 @@
 import './App.css';
-import PollDisplayComponent from './components/PollDisplayComponent';
+import AnotherUserParticipation from './components/AnotherUserParticipation';
+import PollDisplay from './components/PollDisplay';
+import UserParticipation from './components/UserParticipation';
 
 function App() {
+
+  
+
   return (
     <>
       <h1>Polling App </h1>
-      <PollDisplayComponent />
+      <PollDisplay />
+      <UserParticipation />
+      <AnotherUserParticipation />
     </>
   );
 }
