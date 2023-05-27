@@ -12,7 +12,7 @@ function PollDisplayComponent({selectedValue}) {
   <VoteConsumer>
     {
       (selectedValue) =>{
-        console.log(selectedValue, "h")
+        console.log(selectedValue)
         return <div>Hello {selectedValue}</div>
       }
     }

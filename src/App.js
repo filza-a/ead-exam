@@ -2,6 +2,8 @@ import './App.css';
 import AnotherUserParticipation from './components/AnotherUserParticipation';
 import PollDisplay from './components/PollDisplay';
 import UserParticipation from './components/UserParticipation';
+import ThankyouMessage from './components/ThankyouMessage';
+
 
 function App() {
 
@@ -11,6 +13,7 @@ function App() {
       <PollDisplay />
       <UserParticipation />
       <AnotherUserParticipation />
+      {/* <ThankyouMessage /> */}
     </>
   );
 }
