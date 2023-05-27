@@ -18,6 +18,8 @@ function UserParticipationComponent() {
         value = {selectedValue}
       </VoteProvider>
 
+      
+
   return (
     <div>
         <form onSubmit={handleVote}>

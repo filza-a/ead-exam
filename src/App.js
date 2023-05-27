@@ -5,8 +5,6 @@ import UserParticipation from './components/UserParticipation';
 
 function App() {
 
-  
-
   return (
     <>
       <h1>Polling App </h1>
